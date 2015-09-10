@@ -7,6 +7,8 @@
  *
  ******************************************************************************/
 
+import edu.princeton.cs.algs4.*;
+
 /**
  *  The <tt>WeightedQuickUnionUF</tt> class represents a union-find data structure.
  *  It supports the <em>union</em> and <em>find</em> operations, along with
