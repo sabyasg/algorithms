@@ -90,6 +90,9 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 
 public class UF {
 

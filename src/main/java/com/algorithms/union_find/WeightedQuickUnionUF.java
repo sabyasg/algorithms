@@ -25,6 +25,9 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class WeightedQuickUnionUF {
     private int[] parent;   // parent[i] = parent of i
     private int[] size;     // size[i] = number of objects in subtree rooted at i

@@ -24,6 +24,9 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class QuickFindUF {
     private int[] id;    // id[i] = component identifier of i
     private int count;   // number of components
