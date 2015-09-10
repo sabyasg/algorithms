@@ -63,7 +63,16 @@
 					<excludeDefaultDirectories>true</excludeDefaultDirectories>
 					<filesets>
 						<fileset>
-							<directory>${jar.basedir}/classes/com</directory>
+							<directory>${jar.basedir}/classes</directory>
+						</fileset>
+						<fileset>
+							<directory>${jar.basedir}/generated-sources</directory>
+						</fileset>
+						<fileset>
+							<directory>${jar.basedir}/maven-archiver</directory>
+						</fileset>
+						<fileset>
+							<directory>${jar.basedir}/surefire</directory>
 						</fileset>
 						<fileset>
 							<directory>${jar.basedir}</directory>
