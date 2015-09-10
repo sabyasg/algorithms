@@ -21,6 +21,7 @@
  *
  ******************************************************************************/
 
+import edu.princeton.cs.algs4.*;
 
 /**
  *  The <tt>UF</tt> class represents a <em>union-find data type</em>
