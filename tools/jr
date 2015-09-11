@@ -1,0 +1,24 @@
+#!/bin/bash
+
+usage() {
+	echo "usage: ${progname} <class>"
+	exit 1
+}
+
+progname=`basename $0`
+class=$1
+
+if [ -z "${class}" ]; then
+	usage
+fi
+
+obj_dir=obj
+jar_dir=${obj_dir}/main/java/com/algorithms/jar
+
+jar_list="`find ${jar_dir} -name *.jar`"
+jar_path=
+for jar in ${jar_list}; do
+	jar_path="${jar}:${jar_path}"
+done
+
+java -classpath ${jar_path} ${class}
