@@ -104,6 +104,13 @@ public class QuickFindUF {
             if (id[i] == pID) id[i] = qID;
         count--;
     }
+    private void print_id_array() {
+	StdOut.print("ID Array: ");
+	for (int i = 0; i < id.length; i++) {
+	    StdOut.print(id[i] + " ");
+	}
+	StdOut.println("\n");
+    }
 
     /**
      * Reads in a sequence of pairs of integers (between 0 and N-1) from standard input, 
@@ -121,7 +128,9 @@ public class QuickFindUF {
             uf.union(p, q);
             StdOut.println(p + " " + q);
         }
+	StdOut.print("\n");
         StdOut.println(uf.count() + " components");
+	uf.print_id_array();
     }
 
 }
