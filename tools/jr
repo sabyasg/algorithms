@@ -7,6 +7,7 @@ usage() {
 
 progname=`basename $0`
 class=$1
+shift
 
 if [ -z "${class}" ]; then
 	usage
@@ -21,4 +22,4 @@ for jar in ${jar_list}; do
 	jar_path="${jar}:${jar_path}"
 done
 
-java -classpath ${jar_path} ${class}
+java -classpath ${jar_path} ${class} $@
