@@ -10,6 +10,6 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>src/main/java/com/algorithms/union_find</module>
+		<module>src/main/java/com/algorithms</module>
 	</modules>
 </project>
