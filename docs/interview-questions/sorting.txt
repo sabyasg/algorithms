@@ -1,0 +1,41 @@
+
+Question 1:
+Intersection of two sets. Given two arrays a[] and b[], each containing N
+distinct 2D points in the plane, design a subquadratic algorithm to count the
+number of points that are contained both in array a[] and array b[].
+
+Question 2:
+Permutation. Given two integer arrays of size N, design a subquadratic
+algorithm to determine whether one is a permutation of the other. That is, do
+they contain exactly the same entries but, possibly, in a different order
+
+Question 3:
+Dutch national flag. Given an array of N buckets, each containing a red, white,
+or blue pebble, sort them by color. The allowed operations are:
+
+* swap(i,j): swap the pebble in bucket i with the pebble in bucket j.
+* color(i): color of pebble in bucket i.
+
+The performance requirements are as follows:
+* At most N calls to color().
+* At most N calls to swap().
+* Constant extra space.
+
+Question 4:
+Nuts and bolts. A disorganized carpenter has a mixed pile of N nuts and N bolts. The goal is to find the corresponding pairs of nuts and bolts. Each nut fits exactly one bolt and each bolt fits exactly one nut. By fitting a nut and a bolt together, the carpenter can see which one is bigger (but the carpenter cannot compare two nuts or two bolts directly). Design an algorithm for the problem that uses NlogN compares (probabilistically).
+
+Question 5:
+Selection in two sorted arrays. Given two sorted arrays a[] and b[], of sizes
+N1 and N2, respectively, design an algorithm to find the kth largest key. The
+order of growth of the worst case running time of your algorithm should be
+logN, where N=N1+N2.
+
+Version 1: N1=N2 and k=N/2
+Version 2: k=N/2
+Version 3: no restrictions
+
+Question 6:
+Decimal dominants. Given an array with N keys, design an algorithm to find all
+values that occur more than N/10 times. The expected running time of your
+algorithm should be linear.
+
